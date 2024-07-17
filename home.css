@@ -7,10 +7,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #D8F0E9;
   }
 
 header {
-    border: 5px solid orange;
+    border: 5px solid rgb(0, 255, 208);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +23,7 @@ header {
 nav {
     border: 5px solid yellow;
     display: flex;
+    align-items: center;
 }
 
 nav *{
@@ -30,8 +32,8 @@ nav *{
 
 #long_logo {
     border: 5px solid red;
-    height: 150px;
-    margin: 1rem;
+    height: 180px;
+    margin : 2rem 4rem 2rem 0rem;
     position: relative;
 
 }
@@ -42,17 +44,32 @@ nav *{
     width: 300px;
 }
 
+#filter_select{
+    text-align: center;
+    color: #EB6A8E;
+}
+
 #category_list {
     border: 5px solid pink;
     position: absolute;
+    margin: 0;
     top: 250px;
     left: 0px;
-    width: 300px;
-   
+    width: 250px;
+}
+
+#category_list li {
+    margin: 1rem;
+}
+
+main {
+    border: 5px solid cyan;
+    display: flex;
 }
 
 .product_card {
     border: 5px solid orangered;
+    margin: 1rem;
 }
 
 .product_card img {
