@@ -15,11 +15,20 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1500px;
-    position: sticky;
+    width: 100%;
     top:0;
+    position: sticky;
+    padding: 1rem;
+    background-color: aquamarine;
 }
 
+#long_logo {
+    border: 5px solid red;
+    height: 200px;
+    margin : 1rem;
+    position: relative;
+
+}
 nav {
     border: 5px solid yellow;
     display: flex;
@@ -27,21 +36,14 @@ nav {
 }
 
 nav *{
-    margin: 2rem;
+    margin: 1rem;
 }
 
-#long_logo {
-    border: 5px solid red;
-    height: 180px;
-    margin : 2rem 4rem 2rem 0rem;
-    position: relative;
-
-}
 
 #searchbar {
     border: 5px solid blue;
     font-size: 50px;
-    width: 300px;
+    width: 500px;
 }
 
 #filter_select{
@@ -52,27 +54,70 @@ nav *{
 #category_list {
     border: 5px solid pink;
     position: absolute;
-    margin: 0;
+    margin: 2rem 0rem;
     top: 250px;
     left: 0px;
-    width: 250px;
+    width: 200px;
 }
 
 #category_list li {
     margin: 1rem;
 }
 
+#category_list li a {
+    text-decoration: none;
+}
+
 main {
     border: 5px solid cyan;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 .product_card {
     border: 5px solid orangered;
-    margin: 1rem;
+    margin: 0.5rem;
+    width: 20%;
+    text-align: center;
 }
 
 .product_card img {
     border: 5px solid aquamarine;
-    height: 100px;
+    width: 80%;
+    margin: 1rem;
 }
+
+.price_cta_area {
+    border: 5px solid purple;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price_cta_area * {
+margin: 0.5rem;
+font-size: 1.5rem;
+}
+
+.product_name {
+border: 5px solid green;
+margin: 1rem;
+font-size: 2rem;
+color: salmon;
+}
+
+.product_price {
+border: 5px solid orange;
+}
+
+.footer_links_list {
+    border: 5px solid violet;
+    display: flex;
+}
+
+.footer_links_list * {
+    margin: 1rem;
+}
+
