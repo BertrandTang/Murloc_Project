@@ -1,0 +1,15 @@
+{
+  "name": "murloc_project",
+  "version": "1.0.0",
+  "description": "Murloc_Project is a fictional project I made for practice. It is a basically an e-shop selling Murlocs, little creatures from the fantastical world of WarCraft.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express.js": "^1.0.0"
+  }
+}
